@@ -128,7 +128,7 @@
             <option value="hq">HQs</option>
             <option value="lido">Lido</option>
             <option value="não lido">Não lido</option>
-            <option value="quero ler">Quero ler</option>
+            <option value="quero">Quero comprar</option>
         </select>
 
         <h2>Biblioteca:</h2>
@@ -157,7 +157,7 @@
             books.forEach(book => {
                 const listItem = document.createElement('li');
 
-                const statusClass = book.status.toLowerCase() === 'lendo' ? 'status-lendo' : (book.status.toLowerCase() === 'não lido' ? 'status-nao-lido' : book.status.toLowerCase() === 'lido' ? 'status-lido' : book.status.toLowerCase() === 'quero ler' ? 'status-quero' : '');
+                const statusClass = book.status.toLowerCase() === 'lendo' ? 'status-lendo' : (book.status.toLowerCase() === 'não lido' ? 'status-nao-lido' : book.status.toLowerCase() === 'lido' ? 'status-lido' : book.status.toLowerCase() === 'quero' ? 'status-quero' : '');
 
                 // Adicione um link para a página de detalhes do livro
                 listItem.innerHTML = `
@@ -194,7 +194,7 @@
                 const filteredBooks = allBooks.filter(book => book.status.toLowerCase() === filterType);
                 displayBooks(filteredBooks);
             }
-            else if (filterType === 'quero ler'){
+            else if (filterType === 'quero'){
                 const filteredBooks = allBooks.filter(book => book.status.toLowerCase() === filterType);
                 displayBooks(filteredBooks);
             }
