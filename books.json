@@ -76,15 +76,59 @@
     "year": 2010,
     "description": "Explore novas histórias e informações exclusivas no mundo dos semideuses com 'Os Arquivos do Semideus'. Este livro apresenta relatos adicionais, missões extras e detalhes fascinantes sobre os personagens favoritos da série Percy Jackson e os Olimpianos. Uma leitura essencial para os fãs que desejam aprofundar ainda mais seu conhecimento sobre o universo criado por Rick Riordan."
   },
+    {
+      "id": "PJO-LR-HQ",
+      "title": "Percy Jackson e o Ladrão de Raios (HQ)",
+      "author": "Rick Riordan",
+      "genre": "Fantasia",
+      "coverUrl": "https://m.media-amazon.com/images/I/71pQJpsu2IL._SL1000_.jpg",
+      "type": "HQ",
+      "status": "Lido",
+      "year": "2011",
+      "description": "A adaptação em quadrinhos do primeiro livro da série 'Percy Jackson e os Olimpianos'. Acompanhe Percy em sua jornada como um semideus, enfrentando monstros, descobrindo segredos sobre seu passado e interagindo com os deuses do Olimpo."
+    },
+    {
+      "id": "PJO-MM-HQ",
+      "title": "Percy Jackson e o Mar de Monstros (HQ)",
+      "author": "Rick Riordan",
+      "genre": "Fantasia",
+      "coverUrl": "https://m.media-amazon.com/images/I/71opfIuw52L._SL1000_.jpg",
+      "type": "HQ",
+      "status": "Lido",
+      "year": "2013",
+      "description": "A versão em quadrinhos da emocionante continuação da série, onde Percy embarca em uma jornada pelo Mar de Monstros para encontrar o mítico Velocino de Ouro. Com seus amigos e aliados, Percy enfrenta desafios épicos e criaturas mitológicas para salvar o Acampamento Meio-Sangue."
+    },
+    {
+      "id": "PJO-MT-HQ",
+      "title": "Percy Jackson e a Maldição do Titã (HQ)",
+      "author": "Rick Riordan",
+      "genre": "Fantasia",
+      "coverUrl": "https://m.media-amazon.com/images/I/814tHv8McaL._SL1000_.jpg",
+      "type": "HQ",
+      "status": "Lido",
+      "year": "2014",
+      "description": "A adaptação em quadrinhos do terceiro livro da série, onde Percy parte em uma perigosa missão para resgatar Annabeth e Artemis das garras do General dos Titãs. Com reviravoltas emocionantes e encontros com deuses e monstros, Percy enfrenta seu destino como um herói meio-sangue."
+    },  
+  {
+    "id": "PJO-CD",
+    "title": "Percy Jackson e Cálice dos Deuses",
+    "author": "Rick Riordan",
+    "genre": "Fantasia",
+    "coverUrl": "https://m.media-amazon.com/images/I/61+2RRstscL._SL1000_.jpg",
+    "type": "Livro",
+    "status": "Quero ler",
+    "year": "2023",
+    "description": "Após quase dez anos de espera, os fãs do semideus mais amado ― e azarado ― da literatura já podem comemorar: Percy Jackson está de volta! No aguardado novo título da série Percy Jackson e os olimpianos, que chega ao Brasil em lançamento simultâneo, o filho de Poseidon se prepara para uma de suas missões mais difíceis até agora: entrar na faculdade."
+  },  
   {
     "id": "HHO-LH",
     "title": "O Herói Perdido",
     "author": "Rick Riordan",
     "genre": "Fantasia",
-    "coverUrl": "COLOQUE_AQUI_O_URL_DA_CAPA",
+    "coverUrl": "https://m.media-amazon.com/images/I/613qEqF6DNL._SL1000_.jpg",
     "type": "Livro",
-    "status": "Não Lido",
-    "year": 2010,
+    "status": "Lido",
+    "year": "2010",
     "description": "Em 'O Herói Perdido', Jason acorda em um ônibus escolar sem memória, ao lado de dois amigos que também não se lembram de nada. Juntos, eles embarcam em uma jornada épica para descobrir suas identidades e enfrentar desafios inimagináveis. Uma nova profecia, deuses romanos e perigos inesperados aguardam esses heróis perdidos."
   },
   {
@@ -92,10 +136,10 @@
     "title": "O Filho de Netuno",
     "author": "Rick Riordan",
     "genre": "Fantasia",
-    "coverUrl": "COLOQUE_AQUI_O_URL_DA_CAPA",
+    "coverUrl": "https://m.media-amazon.com/images/I/91ifusb3B2L._SL1500_.jpg",
     "type": "Livro",
-    "status": "Não Lido",
-    "year": 2011,
+    "status": "Lido",
+    "year": "2011",
     "description": "Percy Jackson está de volta, mas com amnésia. Ele se junta a novos amigos em uma missão para liberar a Morte da Terra e salvar o Acampamento Meio-Sangue. 'O Filho de Netuno' é uma emocionante continuação da série, cheia de reviravoltas, criaturas mitológicas e ação intensa."
   },
   {
@@ -103,10 +147,10 @@
     "title": "A Marca de Atena",
     "author": "Rick Riordan",
     "genre": "Fantasia",
-    "coverUrl": "COLOQUE_AQUI_O_URL_DA_CAPA",
+    "coverUrl": "https://m.media-amazon.com/images/I/71EZBoLBULL._SL1000_.jpg",
     "type": "Livro",
-    "status": "Não Lido",
-    "year": 2012,
+    "status": "Lido",
+    "year": "2012",
     "description": "Os semideuses dos acampamentos Grego e Romano unem forças para enfrentar uma profecia que pode prever a destruição do mundo. 'A Marca de Atena' leva Annabeth, Percy e seus amigos a uma jornada perigosa pelo Mediterrâneo, enfrentando inimigos antigos e descobrindo segredos que podem abalar as estruturas dos dois acampamentos."
   },
   {
@@ -114,10 +158,10 @@
     "title": "A Casa de Hades",
     "author": "Rick Riordan",
     "genre": "Fantasia",
-    "coverUrl": "COLOQUE_AQUI_O_URL_DA_CAPA",
+    "coverUrl": "https://m.media-amazon.com/images/I/61D7SPJIzmL._SL1000_.jpg",
     "type": "Livro",
     "status": "Não Lido",
-    "year": 2013,
+    "year": "2013",
     "description": "'A Casa de Hades' leva os semideuses em uma jornada pelo Tártaro, o local mais perigoso do Submundo. Com inimigos à espreita e desafios terríveis, eles devem trabalhar juntos para alcançar a Casa de Hades e evitar a ascensão de Gaia. Amizades são testadas, segredos são revelados e sacrifícios são necessários para salvar o mundo."
   },
   {
@@ -125,12 +169,23 @@
     "title": "O Sangue do Olimpo",
     "author": "Rick Riordan",
     "genre": "Fantasia",
-    "coverUrl": "COLOQUE_AQUI_O_URL_DA_CAPA",
+    "coverUrl": "https://m.media-amazon.com/images/I/81h37421KuL._SL1500_.jpg",
     "type": "Livro",
     "status": "Não Lido",
-    "year": 2014,
+    "year": "2014",
     "description": "Chegando ao épico desfecho da série, 'O Sangue do Olimpo' reúne os semideuses em uma batalha final contra as forças de Gaia. A profecia se concretiza, e eles devem arriscar tudo para impedir o despertar da deusa primordial. A tensão atinge seu auge, e o destino do Olimpo e da Terra está nas mãos destes heróis extraordinários."
   },
+  {
+    "id": "PJO-DS",
+    "title": "Diário dos Semideuses",
+    "author": "Rick Riordan",
+    "genre": "Fantasia",
+    "coverUrl": "https://m.media-amazon.com/images/I/81zahz2Le2L._SL1500_.jpg",
+    "type": "Livro",
+    "status": "Lido",
+    "year": "2015",
+    "description": "Em 'Diário dos Semideuses', Rick Riordan apresenta um compêndio repleto de informações essenciais para os fãs de Percy Jackson e os Olimpianos. Explore detalhes sobre os personagens, criaturas mitológicas e o mundo dos semideuses. Descubra segredos dos bastidores e curiosidades sobre a criação da série. Uma leitura obrigatória para os admiradores desta emocionante saga."
+  },  
   {
     "id": "IAAH-1",
     "title": "I Am a Hero, Vol. 1",

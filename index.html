@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Livros Lidos</title>
+    <title>Minha Biblioteca</title>
     <style>
         /* Estilos gerais (mantidos os estilos anteriores) */
         body {
@@ -92,6 +92,10 @@
             color: blue; /* Azul para status "Lido" */
         }
 
+        p.status-quero {
+            color: rgb(255, 0, 191); /* Azul para status "Lido" */
+        }
+
         @media (max-width: 780px){
             ul {
                 grid-template-columns: repeat(2, 1fr);
@@ -116,12 +120,15 @@
             <!-- Formulário para adicionar livros (mantido o mesmo) -->
         </form>
 
-        <h2>Filtrar por tipo:</h2>
+        <h2>Filtrar</h2>
         <select id="filter-select">
             <option value="all">Todos</option>
             <option value="livro">Livros</option>
             <option value="mangá">Mangás</option>
             <option value="hq">HQs</option>
+            <option value="lido">Lido</option>
+            <option value="não lido">Não lido</option>
+            <option value="quero ler">Quero ler</option>
         </select>
 
         <h2>Biblioteca:</h2>
@@ -150,7 +157,7 @@
             books.forEach(book => {
                 const listItem = document.createElement('li');
 
-                const statusClass = book.status.toLowerCase() === 'lendo' ? 'status-lendo' : (book.status.toLowerCase() === 'não lido' ? 'status-nao-lido' : book.status.toLowerCase() === 'lido' ? 'status-lido' : '');
+                const statusClass = book.status.toLowerCase() === 'lendo' ? 'status-lendo' : (book.status.toLowerCase() === 'não lido' ? 'status-nao-lido' : book.status.toLowerCase() === 'lido' ? 'status-lido' : book.status.toLowerCase() === 'quero ler' ? 'status-quero' : '');
 
                 // Adicione um link para a página de detalhes do livro
                 listItem.innerHTML = `
@@ -179,7 +186,19 @@
         function filterBooks(filterType) {
             if (filterType === 'all') {
                 displayBooks(allBooks);
-            } else {
+            } else if (filterType === 'lido'){
+                const filteredBooks = allBooks.filter(book => book.status.toLowerCase() === filterType);
+                displayBooks(filteredBooks);
+            }
+            else if (filterType === 'não lido'){
+                const filteredBooks = allBooks.filter(book => book.status.toLowerCase() === filterType);
+                displayBooks(filteredBooks);
+            }
+            else if (filterType === 'quero ler'){
+                const filteredBooks = allBooks.filter(book => book.status.toLowerCase() === filterType);
+                displayBooks(filteredBooks);
+            }
+             else {
                 const filteredBooks = allBooks.filter(book => book.type.toLowerCase() === filterType);
                 displayBooks(filteredBooks);
             }
