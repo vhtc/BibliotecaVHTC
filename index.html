@@ -1,119 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Biblioteca</title>
+    <link rel="stylesheet" href="styles/style.css">
     <style>
-        /* Estilos gerais (mantidos os estilos anteriores) */
         body {
-            font-family: Arial, sans-serif;
             background-image: url(Imagens/biblioteca.png);
-            background-position: fixed;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #0074b7;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        h1 {
-            font-size: 36px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color:rgba(255, 255, 255, 0.692);
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Estilos para a lista de livros (incluindo as classes status-lido, status-lendo e status-nao-lido) */
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            gap: 20px;
-        }
-
-        li {
-            background-color: #d3b5b5;
-            border-radius: 5px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            transition: transform 0.2s;
-        }
-
-        li:hover {
-            transform: translateY(-5px);
-        }
-
-        /* Estilos para a capa do livro */
-        .book-cover {
-            width: 100%;
-            height: 250px;
-            display: block;
-        }
-
-        li div {
-            padding: 10px;
-        }
-
-        h2 {
-            margin: 0;
-            font-size: 18px;
-        }
-
-        p {
-            margin: 0;
-        }
-
-        /* Estilos para as cores do status */
-        p strong {
-            color: green; /* Verde para status "Lido" */
-        }
-
-        p.status-lendo {
-            color: yellow; /* Amarelo para status "Lendo" */
-        }
-
-        p.status-nao-lido {
-            color: red; /* Vermelho para status "Não Lido" */
-        }
-
-        p.status-lido {
-            color: blue; /* Azul para status "Lido" */
-        }
-
-        p.status-quero {
-            color: rgb(255, 0, 191); /* Azul para status "Lido" */
-        }
-
-        @media (max-width: 780px){
-            ul {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        /* Estilos para os links dos livros */
-        .book-link {
-            text-decoration: none;
-            color: inherit;
-            cursor: pointer;
         }
     </style>
 </head>
+
 <body>
     <header>
-        <h1>Minha Biblioteca</h1>
-        
+        <h1>Biblioteca V.H.T.C</h1>
+        <section class="sectionQuantidade">
+            <div id="contagem-itens"></div>
+            <div id="contagem-livro"></div>
+            <div id="contagem-hq"></div>
+            <div id="contagem-manga"></div>
+            <div id="contagem-lido"></div>
+            <div id="contagem-nlido"></div>
+            <div id="contagem-lendo"></div>
+            <div id="contagem-emprestado"></div>
+            <div id="contagem-quero"></div>
+        </section>
+
     </header>
     <div class="container">
         <form id="book-form">
@@ -128,81 +42,16 @@
             <option value="hq">HQs</option>
             <option value="lido">Lido</option>
             <option value="não lido">Não lido</option>
+            <option value="lendo">Lendo</option>
+            <option value="emprestado">Emprestado</option>
             <option value="quero">Quero comprar</option>
         </select>
 
         <h2>Biblioteca:</h2>
         <ul id="library-list"></ul>
     </div>
-
-    <script>
-        const libraryList = document.getElementById('library-list');
-        const filterSelect = document.getElementById('filter-select');
-        let allBooks = [];
-
-        function loadBooks() {
-            fetch('books.json')
-                .then(response => response.json())
-                .then(books => {
-                    allBooks = books;
-                    displayBooks(allBooks);
-                })
-                .catch(error => {
-                    console.error(error);
-                });
-        }
-
-        function displayBooks(books) {
-            libraryList.innerHTML = '';
-            books.forEach(book => {
-                const listItem = document.createElement('li');
-
-                const statusClass = book.status.toLowerCase() === 'lendo' ? 'status-lendo' : (book.status.toLowerCase() === 'não lido' ? 'status-nao-lido' : book.status.toLowerCase() === 'lido' ? 'status-lido' : book.status.toLowerCase() === 'quero' ? 'status-quero' : '');
-
-                // Adicione um link para a página de detalhes do livro
-                listItem.innerHTML = `
-                    <a class="book-link" href="book-details.html?id=${book.id}">
-                        <img src="${book.coverUrl}" alt="Capa do Livro" class="book-cover">
-                        <div>
-                            <h2>${book.title}</h2>
-                            <p><strong>Autor:</strong> ${book.author}</p>
-                            <p><strong>Gênero:</strong> ${book.genre}</p>
-                            <p><strong>Tipo:</strong> ${book.type}</p>
-                            <p class="${statusClass}"><strong>Status:</strong> ${book.status}</p>
-                            <p><strong>Ano:</strong> ${book.year}</p>
-                        </div>
-                    </a>
-                `;
-                libraryList.appendChild(listItem);
-            });
-        }
-
-        window.addEventListener("load", loadBooks);
-
-        filterSelect.addEventListener("change", function() {
-            filterBooks(filterSelect.value);
-        });
-
-        function filterBooks(filterType) {
-            if (filterType === 'all') {
-                displayBooks(allBooks);
-            } else if (filterType === 'lido'){
-                const filteredBooks = allBooks.filter(book => book.status.toLowerCase() === filterType);
-                displayBooks(filteredBooks);
-            }
-            else if (filterType === 'não lido'){
-                const filteredBooks = allBooks.filter(book => book.status.toLowerCase() === filterType);
-                displayBooks(filteredBooks);
-            }
-            else if (filterType === 'quero'){
-                const filteredBooks = allBooks.filter(book => book.status.toLowerCase() === filterType);
-                displayBooks(filteredBooks);
-            }
-             else {
-                const filteredBooks = allBooks.filter(book => book.type.toLowerCase() === filterType);
-                displayBooks(filteredBooks);
-            }
-        }
-    </script>
+    <script src="js/book.js"></script>
+    <script src="js/countQuantidade.js"></script>
 </body>
+
 </html>
