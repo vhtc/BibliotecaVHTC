@@ -116,9 +116,20 @@
     "genre": "Fantasia",
     "coverUrl": "Imagens/capas/PJO-CD.png",
     "type": "Livro",
-    "status": "Quero",
+    "status": "Lendo",
     "year": "2023",
     "description": "Após quase dez anos de espera, os fãs do semideus mais amado ― e azarado ― da literatura já podem comemorar: Percy Jackson está de volta! No aguardado novo título da série Percy Jackson e os olimpianos, que chega ao Brasil em lançamento simultâneo, o filho de Poseidon se prepara para uma de suas missões mais difíceis até agora: entrar na faculdade."
+  },
+  {
+    "id": "PJO-FDGT",
+    "title": "A Fúria da Deusa Tríplice",
+    "author": "Rick Riordan",
+    "genre": "Fantasia",
+    "coverUrl": "Imagens/capas/PJO-FDGT.png",
+    "type": "Livro",
+    "status": "Quero",
+    "year": "2024",
+    "description": "No aguardado novo livro da série Percy Jackson e os Olimpianos, Percy e seus amigos se veem diante de uma nova e poderosa ameaça, surgida das sombras da mitologia antiga. A Deusa Tríplice, com suas várias facetas, traz desafios inesperados, colocando à prova não apenas as habilidades dos semideuses, mas também suas amizades e lealdades. Em uma jornada repleta de aventuras, mistérios e o humor característico de Riordan, Percy terá que desvendar segredos antigos e enfrentar dilemas morais, enquanto busca proteger o mundo dos mortais e dos deuses. Prepare-se para uma leitura cheia de ação, reviravoltas emocionantes e novas alianças inesperadas."
   },
   {
     "id": "HHO-LH",
@@ -218,7 +229,7 @@
     "status": "Lido",
     "year": 2018,
     "description": "Em 'Suicide Club', Usamaru Furuya oferece uma narrativa impactante que mergulha nas complexidades da psique humana. A história se desenrola em torno de eventos misteriosos e perturbadores, explorando temas profundos como vida, morte e sociedade. Prepare-se para uma experiência intensa e provocativa com este mangá envolvente."
-  },  
+  },
   {
     "id": "YN-1",
     "title": "Your Name, Vol. 1",
@@ -581,5 +592,5 @@
     "status": "Não Lido",
     "year": 2014,
     "description": "Os X-Men entram em cena neste décimo volume, com Kurt Busiek explorando o fascinante mundo dos mutantes. Uma saga épica, repleta de poderes extraordinários, conflitos emocionais e desafios incomparáveis."
-  }       
+  }
 ]
