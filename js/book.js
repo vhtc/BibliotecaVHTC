@@ -32,7 +32,7 @@ function displayBooks(books) {
                             <p><strong>Tipo:</strong> ${book.type}</p>
                             <p class="${statusClass}"><strong>Status:</strong> ${book.status}</p>
                             <p><strong>Ano:</strong> ${book.year}</p>
-                            <p><strong>Pages:</strong> ${book.pages}</p>
+                            <p><strong>Páginas:</strong> ${book.pages}</p>
                             <p><strong>Box:</strong> ${book.box}</p>
                         </div>
                     </a>
