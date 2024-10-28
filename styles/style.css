@@ -1,5 +1,6 @@
  /* Estilos gerais (mantidos os estilos anteriores) */
  body {
+     background-image: url(../Imagens/biblioteca.png);
      font-family: Arial, sans-serif;
      background-position: fixed;
      margin: 0;

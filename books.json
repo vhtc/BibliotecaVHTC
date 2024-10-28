@@ -8,6 +8,8 @@
     "type": "Livro",
     "status": "Lido",
     "year": 2005,
+    "box": "1:7",
+    "pages": 384,
     "description": "Embarque em uma emocionante jornada ao lado de Percy Jackson, um garoto que descobre ser um semideus, filho de Poseidon. Acusado injustamente de roubar o raio-mestre de Zeus, Percy se vê no centro de uma conspiração que pode levar a uma guerra entre os deuses do Olimpo. Acompanhe Percy, Annabeth e Grover enquanto enfrentam monstros mitológicos, desvendam segredos antigos e lutam para limpar o seu nome e evitar uma catástrofe divina."
   },
   {
@@ -19,6 +21,8 @@
     "type": "Livro",
     "status": "Lido",
     "year": 2006,
+    "box": "2:7",
+    "pages": 304,
     "description": "Percy Jackson retorna em uma aventura repleta de perigos, navegando pelo temido Mar de Monstros em busca do lendário Velocino de Ouro, o único artefato que pode salvar o acampamento dos semideuses da destruição. No caminho, eles enfrentam criaturas mitológicas aterrorizantes, descobrem segredos misteriosos e testam os limites de sua amizade e coragem."
   },
   {
@@ -30,6 +34,8 @@
     "type": "Livro",
     "status": "Lido",
     "year": 2007,
+    "box": "3:7",
+    "pages": 336,
     "description": "A ameaça do titã Cronos cresce cada vez mais, e Percy e seus amigos devem se unir para enfrentar o inimigo mais poderoso que já encontraram. A maldição do titã ameaça a profecia que poderia mudar o destino dos semideuses, e eles precisam correr contra o tempo para evitar a destruição do Olimpo."
   },
   {
@@ -41,17 +47,21 @@
     "type": "Livro",
     "status": "Lido",
     "year": 2008,
+    "box": "4:7",
+    "pages": 368,
     "description": "Percy Jackson e seus aliados exploram o misterioso Labirinto de Dédalo, uma construção lendária repleta de armadilhas e enigmas. Sua missão é encontrar uma saída para evitar a invasão de monstros que ameaça o acampamento. Ao mesmo tempo, eles descobrem segredos que podem mudar tudo o que sabem sobre o mundo dos semideuses."
   },
   {
     "id": "PJO-UO",
-    "title": "Percy Jackson e os Olimpianos: O Último Olimpiano",
+    "title": "Percy Jackson O Último Olimpiano",
     "author": "Rick Riordan",
     "genre": "Fantasia",
     "coverUrl": "Imagens/capas/PJO-UO.png",
     "type": "Livro",
     "status": "Lido",
     "year": 2009,
+    "box": "5:7",
+    "pages": 384,
     "description": "Na emocionante conclusão da série, Percy Jackson enfrenta a batalha final contra as forças do titã Cronos, que ameaçam destruir o Olimpo e mergulhar o mundo na escuridão. O destino dos semideuses e dos deuses gregos está em suas mãos, e ele deve provar seu valor como um verdadeiro herói em uma luta épica."
   },
   {
@@ -63,6 +73,8 @@
     "type": "Livro",
     "status": "Lido",
     "year": 2009,
+    "box": "extra",
+    "pages": 224,
     "description": "Este guia abrangente oferece uma visão detalhada do mundo dos semideuses e dos deuses gregos. Explore a história e os segredos por trás dos personagens, monstros e lugares que fazem parte da saga de Percy Jackson. Descubra fatos curiosos, ilustrações exclusivas e informações essenciais para os fãs."
   },
   {
@@ -74,6 +86,8 @@
     "type": "Livro",
     "status": "Lido",
     "year": 2010,
+    "box": "extra",
+    "pages": 272,
     "description": "Explore novas histórias e informações exclusivas no mundo dos semideuses com 'Os Arquivos do Semideus'. Este livro apresenta relatos adicionais, missões extras e detalhes fascinantes sobre os personagens favoritos da série Percy Jackson e os Olimpianos. Uma leitura essencial para os fãs que desejam aprofundar ainda mais seu conhecimento sobre o universo criado por Rick Riordan."
   },
   {
@@ -85,6 +99,7 @@
     "type": "HQ",
     "status": "Lido",
     "year": 2010,
+    "box": "1:3",
     "description": "A adaptação em quadrinhos do primeiro livro da série traz uma nova forma de vivenciar a história de Percy Jackson. Com ilustrações envolventes, esta HQ permite aos fãs reviverem as aventuras do semideus e sua jornada para provar sua inocência e impedir uma guerra entre os deuses."
   },
   {
@@ -96,6 +111,7 @@
     "type": "HQ",
     "status": "Lido",
     "year": "2013",
+    "box": "2:3",
     "description": "A versão em quadrinhos da emocionante continuação da série, onde Percy embarca em uma jornada pelo Mar de Monstros para encontrar o mítico Velocino de Ouro. Com seus amigos e aliados, Percy enfrenta desafios épicos e criaturas mitológicas para salvar o Acampamento Meio-Sangue."
   },
   {
@@ -107,6 +123,7 @@
     "type": "HQ",
     "status": "Lido",
     "year": "2014",
+    "box": "3:3",
     "description": "A adaptação em quadrinhos do terceiro livro da série, onde Percy parte em uma perigosa missão para resgatar Annabeth e Artemis das garras do General dos Titãs. Com reviravoltas emocionantes e encontros com deuses e monstros, Percy enfrenta seu destino como um herói meio-sangue."
   },
   {
@@ -118,6 +135,7 @@
     "type": "Livro",
     "status": "Lendo",
     "year": "2023",
+    "box": "6:7",
     "description": "Após quase dez anos de espera, os fãs do semideus mais amado ― e azarado ― da literatura já podem comemorar: Percy Jackson está de volta! No aguardado novo título da série Percy Jackson e os olimpianos, que chega ao Brasil em lançamento simultâneo, o filho de Poseidon se prepara para uma de suas missões mais difíceis até agora: entrar na faculdade."
   },
   {
@@ -129,7 +147,20 @@
     "type": "Livro",
     "status": "Quero",
     "year": "2024",
+    "box": "7:7",
     "description": "No aguardado novo livro da série Percy Jackson e os Olimpianos, Percy e seus amigos se veem diante de uma nova e poderosa ameaça, surgida das sombras da mitologia antiga. A Deusa Tríplice, com suas várias facetas, traz desafios inesperados, colocando à prova não apenas as habilidades dos semideuses, mas também suas amizades e lealdades. Em uma jornada repleta de aventuras, mistérios e o humor característico de Riordan, Percy terá que desvendar segredos antigos e enfrentar dilemas morais, enquanto busca proteger o mundo dos mortais e dos deuses. Prepare-se para uma leitura cheia de ação, reviravoltas emocionantes e novas alianças inesperadas."
+  },
+  {
+    "id": "PJO-ADG",
+    "title": "Percy Jackson e os Deuses Gregos",
+    "author": "Rick Riordan",
+    "genre": "Fantasia",
+    "coverUrl": "Imagens/capas/PJO-ADG.png",
+    "type": "Livro",
+    "status": "Quero",
+    "year": "2015",
+    "box": "extra",
+    "description": "Neste título da série, Percy Jackson retorna para nos guiar em uma exploração divertida e informativa do panteão grego, oferecendo uma visão única sobre os deuses, heróis e criaturas da mitologia. Com seu humor característico, Percy compartilha histórias intrigantes e curiosidades que trazem vida a figuras míticas, como Zeus, Atena e Hades. Ele aborda temas como coragem, amizade e o que significa ser um semideus no mundo moderno. Uma leitura imperdível, cheia de ilustrações e anedotas que encantam tanto novos leitores quanto os que já conhecem a série."
   },
   {
     "id": "HHO-LH",
@@ -140,6 +171,7 @@
     "type": "Livro",
     "status": "Lido",
     "year": "2010",
+    "box": "1:5",
     "description": "Em 'O Herói Perdido', Jason acorda em um ônibus escolar sem memória, ao lado de dois amigos que também não se lembram de nada. Juntos, eles embarcam em uma jornada épica para descobrir suas identidades e enfrentar desafios inimagináveis. Uma nova profecia, deuses romanos e perigos inesperados aguardam esses heróis perdidos."
   },
   {
@@ -151,6 +183,7 @@
     "type": "Livro",
     "status": "Lido",
     "year": "2011",
+    "box": "2:5",
     "description": "Percy Jackson está de volta, mas com amnésia. Ele se junta a novos amigos em uma missão para liberar a Morte da Terra e salvar o Acampamento Meio-Sangue. 'O Filho de Netuno' é uma emocionante continuação da série, cheia de reviravoltas, criaturas mitológicas e ação intensa."
   },
   {
@@ -162,6 +195,7 @@
     "type": "Livro",
     "status": "Lido",
     "year": "2012",
+    "box": "3:5",
     "description": "Os semideuses dos acampamentos Grego e Romano unem forças para enfrentar uma profecia que pode prever a destruição do mundo. 'A Marca de Atena' leva Annabeth, Percy e seus amigos a uma jornada perigosa pelo Mediterrâneo, enfrentando inimigos antigos e descobrindo segredos que podem abalar as estruturas dos dois acampamentos."
   },
   {
@@ -173,6 +207,7 @@
     "type": "Livro",
     "status": "Não Lido",
     "year": "2013",
+    "box": "4:5",
     "description": "'A Casa de Hades' leva os semideuses em uma jornada pelo Tártaro, o local mais perigoso do Submundo. Com inimigos à espreita e desafios terríveis, eles devem trabalhar juntos para alcançar a Casa de Hades e evitar a ascensão de Gaia. Amizades são testadas, segredos são revelados e sacrifícios são necessários para salvar o mundo."
   },
   {
@@ -184,6 +219,7 @@
     "type": "Livro",
     "status": "Não Lido",
     "year": "2014",
+    "box": "5:5",
     "description": "Chegando ao épico desfecho da série, 'O Sangue do Olimpo' reúne os semideuses em uma batalha final contra as forças de Gaia. A profecia se concretiza, e eles devem arriscar tudo para impedir o despertar da deusa primordial. A tensão atinge seu auge, e o destino do Olimpo e da Terra está nas mãos destes heróis extraordinários."
   },
   {
@@ -195,7 +231,20 @@
     "type": "Livro",
     "status": "Lido",
     "year": "2015",
+    "box": "extra",
     "description": "Em 'Diário dos Semideuses', Rick Riordan apresenta um compêndio repleto de informações essenciais para os fãs de Percy Jackson e os Olimpianos. Explore detalhes sobre os personagens, criaturas mitológicas e o mundo dos semideuses. Descubra segredos dos bastidores e curiosidades sobre a criação da série. Uma leitura obrigatória para os admiradores desta emocionante saga."
+  },
+  {
+    "id": "FDP",
+    "title": "A Filha das Profundezas",
+    "author": "Rick Riordan",
+    "genre": "Fantasia",
+    "coverUrl": "Imagens/capas/FDP.png",
+    "type": "Livro",
+    "status": "Quero",
+    "year": "2023",
+    "box": "1:1",
+    "description": "Em 'A Filha das Profundezas', Rick Riordan apresenta uma nova heroína em uma emocionante aventura subaquática. A história segue a jornada de uma jovem semideusa que deve enfrentar os mistérios e perigos do reino de Poseidon. Com a ajuda de aliados improváveis, ela navega por desafios épicos, criaturas míticas e revelações sobre sua própria identidade. Este livro combina o humor característico de Riordan com temas de coragem e descoberta, prometendo encantar os fãs de sua obra e novos leitores, enquanto mergulham em um mundo rico e fascinante."
   },
   {
     "id": "GOW-1",
@@ -206,6 +255,7 @@
     "type": "Livro",
     "status": "Lido",
     "year": 2012,
+    "box": "1:2",
     "description": "Em 'God of War', mergulhe na épica jornada de Kratos, um guerreiro espartano em busca de redenção em um mundo repleto de deuses, monstros e mitologia grega. Através de batalhas brutais e desafios divinos, Kratos enfrenta seu passado e forças sobrenaturais que ameaçam seu caminho em direção à vingança e redenção."
   },
   {
@@ -217,7 +267,20 @@
     "type": "Livro",
     "status": "Lido",
     "year": 2013,
+    "box": "2:2",
     "description": "Em 'God of War 2', a saga de Kratos continua enquanto ele enfrenta novos desafios e inimigos nas terras mitológicas. Com a sombra de seu passado ainda pairando sobre ele, Kratos embarca em uma busca por poder divino, desencadeando eventos que sacudirão os próprios alicerces do Olimpo. Uma narrativa repleta de ação, traição e deidades imortais."
+  },
+  {
+    "id": "GOW-NM",
+    "title": "God of War Mitologia Nórdica",
+    "author": "Santa Monica Studio",
+    "genre": "Ação/Aventura",
+    "coverUrl": "Imagens/capas/GOW-NM.png",
+    "type": "Jogo",
+    "status": "Quero",
+    "year": "2018",
+    "box": "1:1",
+    "description": "Em 'God of War', o jogador embarca em uma emocionante jornada ao lado de Kratos e seu filho Atreus pelos reinos da mitologia nórdica. A história explora temas de paternidade, sacrifício e redenção enquanto eles enfrentam deuses, monstros e desafios épicos. Com gráficos deslumbrantes e um sistema de combate inovador, o jogo oferece uma experiência imersiva que combina ação intensa com uma narrativa envolvente, levando os jogadores a explorar um mundo rico em mitologia e aventura."
   },
   {
     "id": "SC-1",
@@ -228,6 +291,7 @@
     "type": "Mangá",
     "status": "Lido",
     "year": 2018,
+    "box": "1:1",
     "description": "Em 'Suicide Club', Usamaru Furuya oferece uma narrativa impactante que mergulha nas complexidades da psique humana. A história se desenrola em torno de eventos misteriosos e perturbadores, explorando temas profundos como vida, morte e sociedade. Prepare-se para uma experiência intensa e provocativa com este mangá envolvente."
   },
   {
@@ -239,6 +303,7 @@
     "type": "Mangá",
     "status": "Lido",
     "year": 2017,
+    "box": "1:3",
     "description": "Em 'Your Name, Vol. 1', mergulhe na envolvente narrativa que transcende as barreiras do tempo e espaço. Taki e Mitsuha, dois jovens com vidas separadas, descobrem que estão misteriosamente conectados. À medida que tentam desvendar esse enigma, segredos sobre o tempo, destino e amor começam a se desdobrar, levando-os a uma jornada emocional e surpreendente."
   },
   {
@@ -250,6 +315,7 @@
     "type": "Mangá",
     "status": "Lido",
     "year": 2017,
+    "box": "2:3",
     "description": "No segundo volume de 'Your Name', a saga continua, explorando os desafios enfrentados por Taki e Mitsuha em sua busca para compreender o mistério que os une. Entre encontros e desencontros, esta narrativa cativante mescla elementos de romance, ficção científica e drama, proporcionando uma experiência única e emocionante."
   },
   {
@@ -261,6 +327,7 @@
     "type": "Mangá",
     "status": "Lido",
     "year": 2018,
+    "box": "3:3",
     "description": "No terceiro e último volume de 'Your Name', a resolução do enigma temporal que une os destinos de Taki e Mitsuha atinge seu ápice. Reviravoltas emocionantes, conclusões impactantes e revelações surpreendentes aguardam os leitores. Esta obra proporciona um desfecho memorável, encerrando com maestria a história que cativou corações ao redor do mundo."
   },
   {
@@ -272,6 +339,7 @@
     "type": "Mangá",
     "status": "Lido",
     "year": 2018,
+    "box": "1:4",
     "description": "Em 'Velvet Kiss, Vol. 1', mergulhe em uma história envolvente que mistura romance e drama. A vida de Nitta é virada de cabeça para baixo quando ele se envolve com a misteriosa e encantadora Mizuhara. Entre segredos e paixões, esta narrativa cativante explora as complexidades do amor e dos desejos."
   },
   {
@@ -283,6 +351,7 @@
     "type": "Mangá",
     "status": "Lido",
     "year": 2018,
+    "box": "2:4",
     "description": "No segundo volume de 'Velvet Kiss', a trama se aprofunda, revelando mais sobre os personagens e os desafios que enfrentam. Nitta e Mizuhara são testados em sua jornada, enquanto segredos do passado e dilemas morais emergem. Uma história que mistura sensualidade e emoção, levando os leitores por caminhos inesperados."
   },
   {
@@ -294,6 +363,7 @@
     "type": "Mangá",
     "status": "Lido",
     "year": 2018,
+    "box": "3:4",
     "description": "O terceiro volume de 'Velvet Kiss' continua a explorar os relacionamentos complexos entre Nitta e Mizuhara. À medida que a trama se desenrola, os personagens enfrentam dilemas morais, desejos conflitantes e reviravoltas emocionantes. Uma narrativa envolvente que mergulha nos aspectos mais profundos do amor e da conexão humana."
   },
   {
@@ -305,6 +375,7 @@
     "type": "Mangá",
     "status": "Lido",
     "year": 2018,
+    "box": "4:4",
     "description": "No último volume de 'Velvet Kiss', a história atinge seu clímax, trazendo conclusões impactantes e decisões cruciais para os protagonistas. Nitta e Mizuhara enfrentam o desfecho de seus destinos entrelaçados, levando a uma reflexão profunda sobre amor, compromisso e redenção. Uma jornada intensa e cativante."
   },
   {
